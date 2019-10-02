@@ -19,6 +19,13 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
 .container-fluid {
     padding: 3% 15%;
 }
@@ -62,19 +69,11 @@ h1 {
 }
 
 
-/*Testimonials */
-
-#testimonials {
-    padding: 7% 15%;
-    background-color: #ef8172;
-}
-
-
 /*Features*/
 
 #features {
     text-align: center;
-    padding: 3% 15%;
+    padding: 7% 15%;
 }
 
 #features div {
@@ -104,4 +103,30 @@ h1 {
 
 #features i:hover {
     color: #ff4c68;
+}
+
+
+/*Testimonials */
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
